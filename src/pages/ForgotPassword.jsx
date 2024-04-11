@@ -15,11 +15,11 @@ export const ForgotPassword = () => {
         <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
           <form className="space-y-6" action="#" method="POST">
             <div>
-              <label for="email" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Email
               </label>
               <div className="mt-1">
-                <input id="email" name="email" type="email" autocomplete="email" required
+                <input id="email" name="email" type="email"  required
                   className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                   placeholder="Enter your email address" />
               </div>
@@ -52,3 +52,4 @@ export const ForgotPassword = () => {
     </div>
   )
 }
+export default ForgotPassword
